@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bella Ananda Putri - Portfolio</title>
+
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ asset('css/unicons.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="{{ asset('css/additions.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/tooplate-style.css') }}">
+    <link rel="stylesheet" href="{{ mix('sass/tooplate-style.css') }}">
+
+    <!--
+
+    Tooplate 2115 Marvel
+
+    https://www.tooplate.com/view/2115-marvel
+
+    -->
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="/"><i class='uil uil-user'></i>Bella Ananda Putri</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link"><span data-hover="About">About Me</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="nav-link"><span data-hover="Projects">My Projects</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link"><span data-hover="Skills">Skillset</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link"><span data-hover="Contact">Get In Touch</span></a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-lg-auto">
+                    <div class="ml-lg-4">
+                        <div class="color-mode d-lg-flex justify-content-center align-items-center">
+                            <i class="color-mode-icon"></i>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ABOUT -->
+    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+                    <div class="about-text">
+                        <small class="small-text">Hello, World!</span></small>
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">Hello, I'm</span>
+                            <div class="animated-info">
+                                <span class="animated-item">Bella Ananda Putri</span>
+                                <span class="animated-item">Junior Web Programmer</span>
+                                <span class="animated-item">Software Developer</span>
+                            </div>
+                        </h1>
+
+                        <p>Highly motivated and detail-oriented programming enthusiast with a strong foundation in web programming,
+                        particularly in developing scalable web applications using Django and Laravel. Proven experience in
+                        leading projects, database design, and backend development. Eager to apply my skills and passion for
+                        technology to contribute to innovative projects and solve real-world challenges.</p>
+
+                        <div class="custom-btn-group mt-4">
+                            <a href="#" class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download my CV</a>
+                            <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get in touch</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="about-image svg">
+                        <img src="{{asset('images/21087369_hijab_work [Converted].png')}}" class="img-fluid" alt="main description">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="project py-5" id="project">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-11 text-center mx-auto col-12">
+
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Projects I Have Worked On</h2>
+                    </div>
+
+                    <div class="owl-carousel owl-theme pt-5">
+                        <div class="item pt-3 pb-5">
+                            <div class="project-info">
+                                <img src="{{asset('images/project/tpid_wonogiri.png')}}" class="w-75 pt-3 mx-auto" alt="project image">
+                                <div class="project-details">
+                                    <h3 class="project-title">TPID Kabupaten Wonogiri</h3>
+                                    <p class="project-description">Python-based web application for Tim Pengendalian Inflasi Daerah Kabupaten Wonogiri.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item pt-3 pb-5">
+                            <div class="project-info">
+                                <img src="{{asset('images/project/klikagenda.png')}}" class="w-75 pt-3 mx-auto" alt="project image">
+                                <div class="project-details">
+                                    <h3 class="project-title">KlikAgenda</h3>
+                                    <p class="project-description">Laravel web application for agenda in Bapenda Surakarta.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item pt-3 pb-5">
+                            <div class="project-info">
+                                <img src="{{asset('images/project/automatic_school_bell.png')}}" class="w-75 pt-3 mx-auto" alt="project image">
+                                <div class="project-details">
+                                    <h3 class="project-title">Automatic School Bell</h3>
+                                    <p class="project-description">C# desktop application for school bell automation in RPL SMK N 1 Jatiroto.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills py-5" id="skills">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-11 text-center mx-auto col-12">
+
+                    <div class="col-lg-8 mx-auto pb-3">
+                        <h2>Core Competencies</h2>
+                    </div>
+
+                    <div class="owl-carousel owl-theme">
+                        <div class="item pt-5 pb-5">
+                            <table>
+                                <tr class="row justify-content-center">
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/python.svg')}}" alt="python" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/js.svg')}}" alt="javascript" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/java.svg')}}" alt="java" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/icons8-c-sharp.svg')}}" alt="c#" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/vbnet-svgrepo-com.svg')}}" alt="visual basic .net" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/laravel.svg')}}" alt="laravel" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/django-svgrepo-com.svg')}}" alt="django" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/html5.svg')}}" alt="html5" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/css3-alt.svg')}}" alt="css3" class="px-3">
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="item pt-5 pb-5">
+                            <table>
+                                <tr class="row justify-content-center">
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/git-alt.svg')}}" alt="git" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/github-alt.svg')}}" alt="github" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/gitlab.svg')}}" alt="gitlab" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/mariadb-svgrepo-com.svg')}}" alt="mariadb" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/postgresql-svgrepo-com.svg')}}" alt="postgresql" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/sqlite-svgrepo-com.svg')}}" alt="sqlite" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/microsoftsqlserver-svgrepo-com.svg')}}" alt="ms sql server" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/mongodb-svgrepo-com.svg')}}" alt="mongodb" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/cpanel.svg')}}" alt="cpanel" class="px-3">
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="item pt-5 pb-5">
+                            <table>
+                                <tr class="row justify-content-center">
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/php.svg')}}" alt="php" class="svg px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/bootstrap.svg')}}" alt="bootstrap" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/elementor.svg')}}" alt="elementor" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/wordpress.svg')}}" alt="wordpress" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/figma.svg')}}" alt="figma" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/draw-io.svg')}}" alt="draw-io" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/microsoft-office-svgrepo-com.svg')}}" alt="ms office" class="px-3">
+                                    </td>
+                                    <td class="col-lg-1 text-center">
+                                        <img src="{{asset('images/skills/office-visio-svgrepo-com.svg')}}" alt="ms visio" class="px-3">
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact py-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-11 text-center mx-auto col-12">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Contact Me</h2>
+                        <p class="mb-5">I'm currently looking for new opportunities, my inbox is always open. Whether you have a
+                        question or just want to say hi, I'll try my best to get back to you!</p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-6 mx-auto">
+                        <table>
+                            <tr>
+                                <td>
+                                    <a href="https://www.linkedin.com/in/bellaananda" target="_blank">
+                                        <img src="{{asset('images/skills/linkedin.svg')}}" alt="linkedin" class="img-fluid w-25">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://discordapp.com/users/bebellaap/" target="_blank">
+                                        <img src="{{asset('images/skills/discord.svg')}}" alt="discord" class="img-fluid w-25">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="mailto:bellaanandaputri12@gmail.com" target="_blank">
+                                        <img src="{{asset('images/skills/envelope.svg')}}" alt="mail" class="img-fluid w-25">
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href="https://github.com/bellaananda" target="_blank">
+                                        <img src="{{asset('images/skills/github.svg')}}" alt="github" class="img-fluid w-25">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer py-5">
+        <div class="container">
+            <hr>
+            <div class="row">
+
+                <div class="col-lg-12 col-12">
+                    <p class="copyright-text text-center">Copyright &copy; 2024 by Bella. All rights reserved.</p>
+                    <p class="copyright-text text-center">Designed by <a rel="nofollow"
+                        href="https://www.facebook.com/tooplate">Tooplate</a></p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{asset('js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{asset('js/popper.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('js/Headroom.js')}}"></script>
+    <script src="{{asset('js/jQuery.headroom.js')}}"></script>
+    <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('js/smoothscroll.js')}}"></script>
+    <script src="{{asset('js/custom.js')}}"></script>
+
+</body>
+
+</html>
